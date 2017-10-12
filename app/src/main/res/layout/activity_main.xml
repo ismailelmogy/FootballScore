@@ -12,6 +12,7 @@
 
 
         <LinearLayout
+            android:layout_marginTop="16dp"
             android:id="@+id/layout_zamalek"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -21,15 +22,20 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp">
+                android:layout_marginBottom="16dp">
 
                 <TextView
+                    android:paddingBottom="8dp"
+                    android:textSize="14sp"
+                    android:textColor="#616161"
+                    android:fontFamily="sans-serif-medium"
                     android:id="@+id/zamalek_Text_view"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
-                    android:text="Zamalek Team"
-                    android:textStyle="bold" />
+                    android:text="@string/zamalek_team"
+                    android:textStyle="bold"
+                    />
 
                 <ImageView
                     android:layout_width="50dp"
@@ -38,9 +44,12 @@
                     android:layout_centerHorizontal="true"
                     android:gravity="center_horizontal"
                     android:src="@drawable/zamalek" />
+
             </RelativeLayout>
 
             <TextView
+                android:fontFamily="sans-serif-light"
+                android:textColor="#000000"
                 android:id="@+id/zamalek_goal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -56,10 +65,12 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:text="Goal"
+                android:text="@string/goal_zamalek"
                 android:onClick="addGoalForZamalek"/>
 
             <TextView
+                android:fontFamily="sans-serif-light"
+                android:textColor="#000000"
                 android:id="@+id/zamalek_foul"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -74,10 +85,12 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:text="Foul"
+                android:text="@string/foul_zamalek"
                 android:onClick="addFoulForZamalek"/>
 
             <TextView
+                android:fontFamily="sans-serif-light"
+                android:textColor="#000000"
                 android:id="@+id/zamalek_offside"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -92,7 +105,7 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:text="OffSide"
+                android:text="@string/offside_zamalek"
                 android:onClick="addOffsideForZamalek"/>
 
 
@@ -107,6 +120,7 @@
            />
 
         <LinearLayout
+            android:layout_marginTop="16dp"
             android:id="@+id/layout_alahly"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -114,16 +128,21 @@
             android:orientation="vertical">
 
             <RelativeLayout
+                android:layout_marginBottom="16dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp">
+                >
 
                 <TextView
+                    android:paddingBottom="8dp"
+                    android:textSize="14sp"
+                    android:textColor="#616161"
+                    android:fontFamily="sans-serif-medium"
                     android:id="@+id/alahly_Text_view"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
-                    android:text="Alahly Team"
+                    android:text="@string/alahly_team"
                     android:textStyle="bold" />
 
                 <ImageView
@@ -136,6 +155,8 @@
             </RelativeLayout>
 
             <TextView
+                android:fontFamily="sans-serif-light"
+                android:textColor="#000000"
                 android:id="@+id/alahly_goal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -152,10 +173,12 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:text="Goal" />
+                android:text="@string/goal_alahly" />
 
 
             <TextView
+                android:fontFamily="sans-serif-light"
+                android:textColor="#000000"
                 android:id="@+id/alahly_foul"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -172,10 +195,12 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:text="Foul" />
+                android:text="@string/foul_alahly" />
 
 
             <TextView
+                android:fontFamily="sans-serif-light"
+                android:textColor="#000000"
                 android:id="@+id/alahly_offside"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -192,7 +217,7 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:text="OffSide" />
+                android:text="@string/offside_alahly" />
 
 
         </LinearLayout>
@@ -205,9 +230,8 @@
         android:onClick="reset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
         android:layout_centerHorizontal="true"
-        android:text="Reset"
+        android:text="@string/reset"
         android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>
