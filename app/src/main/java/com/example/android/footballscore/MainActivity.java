@@ -83,6 +83,11 @@ public class MainActivity extends AppCompatActivity {
         alahlyOffside.setText(String.valueOf(offsideScoreOfAlahly));
     }
 
+
+    /*
+    this methos is used to set values of goals,fouls and offsides for both teams
+     */
+
     public void reset(View view){
 
         goalScoreOfAlahly=goalScoreOfZamalek = 0;
