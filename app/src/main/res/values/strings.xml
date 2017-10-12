@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Football Score APP</string>
+    <string name="zamalek_team">Zamalek Team</string>
+    <string name="alahly_team">Alahly Team</string>
+    <string name="reset">Reset</string>
+    <string name="offside_alahly">OffSide</string>
+    <string name="foul_alahly">Foul</string>
+    <string name="goal_alahly">Goal</string>
+    <string name="offside_zamalek">OffSide</string>
+    <string name="foul_zamalek">Foul</string>
+    <string name="goal_zamalek">Goal</string>
 </resources>
